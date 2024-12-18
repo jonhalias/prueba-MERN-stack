@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    font-size: 18px;
+}
+.notfound__containt{
+    width: 100%;
+    height: 540px;
+    background-color: #aed1fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.notfound__title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 3.2em;
+    color: black;
+}
+.notfound__img{
+    width: 40%;
+    min-height: 100px;
+}
+
+@media screen and (max-width:550px) {
+    .notfound__containt{
+        width: 100%;
+        height: 100vh;
+    }
+    .notfound__img{
+        width: 100%;
+        min-height: 100px;
+    }
+}

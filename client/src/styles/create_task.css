@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+.tasks__container{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tasks__title{
+    text-align: center;
+}
+.tasks__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+textarea{
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 50px;
+    max-height: 200px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+input[type="text"]{
+    min-height: 25px;
+    padding: 5px;
+}
+.tasks__redirect{
+    margin-top: 10px;
+}

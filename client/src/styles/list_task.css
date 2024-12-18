@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #33dbdb;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tasks__containt{
+    width: 50%;
+    min-height: 100px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.tasks__title{
+    text-align: center;
+}
+.tasks__buttons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tasks__delete{
+    background-color: #ec2b2b;
+}
+.tasks__delete:hover{
+    background-color: #ec4848;
+}
+.tasks__edit{
+    background-color: #33dbdb;
+}
+.tasks__edit:hover{
+    background-color: #7dece3;
+}
